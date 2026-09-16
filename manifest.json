@@ -1,0 +1,28 @@
+{
+    "name": "NailMatch 💅",
+    "short_name": "NailMatch",
+    "description": "Encuentra diseños de uñas según tu edad, gustos, estilo, color, largo y ocasión.",
+    "start_url": "./index.html",
+    "scope": "./",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#fff5f9",
+    "theme_color": "#d978a2",
+    "lang": "es",
+    "dir": "ltr",
+
+    "icons": [
+        {
+            "src": "img/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "img/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}

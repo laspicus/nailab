@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#d978a2">
+    <meta name="description" content="Encuentra el diseño de uñas perfecto para ti">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+
+    <title>NailMatch 💅</title>
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+
+        <!-- LOGO -->
+        <img
+            src="img/nailmatch-logo.png"
+            alt="Logo de NailMatch"
+            class="logo-esquina"
+        >
+
+        <!-- TÍTULO -->
+        <div class="encabezado">
+
+            <h1>NailMatch 💅</h1>
+
+            <p>
+                Encuentra el diseño de uñas perfecto para ti
+            </p>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- PRESENTACIÓN -->
+        <section class="hero">
+
+            <h2>
+                ✨ Descubre tus uñas ideales ✨
+            </h2>
+
+            <p>
+                Cuéntanos tus gustos y te mostraremos diseños
+                que podrían encantarte.
+            </p>
+
+        </section>
+
+
+        <!-- FORMULARIO -->
+        <section class="formulario">
+
+            <h2>💖 Cuéntanos sobre ti</h2>
+
+
+            <!-- EDAD -->
+            <div class="campo">
+
+                <label for="edad">
+                    ¿Qué edad tienes?
+                </label>
+
+                <select id="edad">
+
+                    <option value="">
+                        Selecciona tu edad
+                    </option>
+
+                    <option value="13-17">
+                        13 - 17 años
+                    </option>
+
+                    <option value="18-25">
+                        18 - 25 años
+                    </option>
+
+                    <option value="26-40">
+                        26 - 40 años
+                    </option>
+
+                    <option value="41+">
+                        41 años o más
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <!-- ESTILO -->
+            <div class="campo">
+
+                <label for="estilo">
+                    ¿Cuál es tu estilo?
+                </label>
+
+                <select id="estilo">
+
+                    <option value="">
+                        Selecciona un estilo
+                    </option>
+
+                    <option value="elegante">
+                        Elegante ✨
+                    </option>
+
+                    <option value="coquette">
+                        Coquette 🎀
+                    </option>
+
+                    <option value="minimalista">
+                        Minimalista 🤍
+                    </option>
+
+                    <option value="atrevido">
+                        Atrevido 🔥
+                    </option>
+
+                    <option value="divertido">
+                        Divertido 🌈
+                    </option>
+
+                    <option value="glamour">
+                        Glamour 💎
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <!-- COLOR -->
+            <div class="campo">
+
+                <label for="color">
+                    ¿Qué colores te gustan?
+                </label>
+
+                <select id="color">
+
+                    <option value="">
+                        Selecciona un color
+                    </option>
+
+                    <option value="rosa">
+                        Rosa 🌸
+                    </option>
+
+                    <option value="rojo">
+                        Rojo ❤️
+                    </option>
+
+                    <option value="negro">
+                        Negro 🖤
+                    </option>
+
+                    <option value="blanco">
+                        Blanco 🤍
+                    </option>
+
+                    <option value="azul">
+                        Azul 💙
+                    </option>
+
+                    <option value="morado">
+                        Morado 💜
+                    </option>
+
+                    <option value="verde">
+                        Verde 💚
+                    </option>
+
+                    <option value="nude">
+                        Nude 🤎
+                    </option>
+
+                    <option value="multicolor">
+                        Muchos colores 🌈
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <!-- LARGO -->
+            <div class="campo">
+
+                <label for="largo">
+                    ¿Qué largo prefieres?
+                </label>
+
+                <select id="largo">
+
+                    <option value="">
+                        Selecciona el largo
+                    </option>
+
+                    <option value="cortas">
+                        Cortas
+                    </option>
+
+                    <option value="medianas">
+                        Medianas
+                    </option>
+
+                    <option value="largas">
+                        Largas
+                    </option>
+
+                    <option value="extra">
+                        Extra largas
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <!-- OCASIÓN -->
+            <div class="campo">
+
+                <label for="ocasion">
+                    ¿Para qué ocasión?
+                </label>
+
+                <select id="ocasion">
+
+                    <option value="">
+                        Selecciona una ocasión
+                    </option>
+
+                    <option value="diario">
+                        Para todos los días
+                    </option>
+
+                    <option value="fiesta">
+                        Fiesta 🎉
+                    </option>
+
+                    <option value="graduacion">
+                        Graduación 🎓
+                    </option>
+
+                    <option value="boda">
+                        Boda 💍
+                    </option>
+
+                    <option value="cita">
+                        Cita romántica 💕
+                    </option>
+
+                    <option value="vacaciones">
+                        Vacaciones 🌴
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <!-- BOTÓN -->
+            <button id="buscarBtn">
+                💅 Encontrar mis uñas
+            </button>
+
+        </section>
+
+
+        <!-- RESULTADOS -->
+        <section class="resultados">
+
+            <h2>
+                💖 Tus recomendaciones
+            </h2>
+
+            <div id="contenedorResultados">
+
+                <div class="mensaje">
+
+                    <span>💅</span>
+
+                    <p>
+                        Completa tus preferencias para descubrir
+                        tus diseños ideales.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+
+        <p>
+            💖 NailMatch — Inspírate y crea tu propio estilo ✨
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
