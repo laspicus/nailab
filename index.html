@@ -5,34 +5,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="theme-color" content="#d978a2">
+    <meta name="theme-color" content="#e88bad">
     <meta name="description" content="Encuentra el diseño de uñas perfecto para ti">
+
+    <title>NailMatch 💅🏻🎀</title>
 
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json">
 
-    <title>NailMatch 💅</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet"
+    >
 </head>
 
 <body>
 
-    <!-- ENCABEZADO -->
-    <header>
+    <div class="decoracion decoracion-1">♡</div>
+    <div class="decoracion decoracion-2">✦</div>
+    <div class="decoracion decoracion-3">♡</div>
+    <div class="decoracion decoracion-4">✧</div>
 
-        <!-- LOGO -->
-        <img
-            src="img/nailmatch-logo.png"
-            alt="Logo de NailMatch"
-            class="logo-esquina"
-        >
 
-        <!-- TÍTULO -->
+    <header class="header">
+
+        <div class="logo-container">
+            <img
+                src="img/nailmatch-logo.png"
+                alt="Logo de NailMatch"
+                class="logo"
+            >
+        </div>
+
         <div class="encabezado">
 
-            <h1>NailMatch 💅</h1>
+            <span class="mini-titulo">
+                ✧ YOUR NAILS · YOUR STYLE ✧
+            </span>
+
+            <h1>
+                Nail<span>Match</span> 💅🏻
+            </h1>
 
             <p>
-                Encuentra el diseño de uñas perfecto para ti
+                Encuentra el diseño de uñas que
+                <strong>va contigo</strong> 🎀
             </p>
 
         </div>
@@ -42,31 +62,53 @@
 
     <main>
 
-        <!-- PRESENTACIÓN -->
         <section class="hero">
 
+            <span class="badge">
+                💗 PERSONALIZA TU LOOK
+            </span>
+
             <h2>
-                ✨ Descubre tus uñas ideales ✨
+                Descubre tus uñas ideales
             </h2>
 
             <p>
-                Cuéntanos tus gustos y te mostraremos diseños
-                que podrían encantarte.
+                Cuéntanos tus gustos y encuentra diseños
+                que combinen perfectamente contigo.
             </p>
+
+            <div class="hero-decoracion">
+                ♡ &nbsp; ✦ &nbsp; ♡
+            </div>
 
         </section>
 
 
-        <!-- FORMULARIO -->
         <section class="formulario">
 
-            <h2>💖 Cuéntanos sobre ti</h2>
+            <div class="titulo-seccion">
+
+                <div class="icono-titulo">
+                    🎀
+                </div>
+
+                <div>
+                    <h2>
+                        Cuéntanos sobre ti
+                    </h2>
+
+                    <p>
+                        Elige tus preferencias
+                    </p>
+                </div>
+
+            </div>
 
 
-            <!-- EDAD -->
             <div class="campo">
 
                 <label for="edad">
+                    <span>♡</span>
                     ¿Qué edad tienes?
                 </label>
 
@@ -97,10 +139,10 @@
             </div>
 
 
-            <!-- ESTILO -->
             <div class="campo">
 
                 <label for="estilo">
+                    <span>♡</span>
                     ¿Cuál es tu estilo?
                 </label>
 
@@ -139,10 +181,10 @@
             </div>
 
 
-            <!-- COLOR -->
             <div class="campo">
 
                 <label for="color">
+                    <span>♡</span>
                     ¿Qué colores te gustan?
                 </label>
 
@@ -193,10 +235,10 @@
             </div>
 
 
-            <!-- LARGO -->
             <div class="campo">
 
                 <label for="largo">
+                    <span>♡</span>
                     ¿Qué largo prefieres?
                 </label>
 
@@ -227,10 +269,10 @@
             </div>
 
 
-            <!-- OCASIÓN -->
             <div class="campo">
 
                 <label for="ocasion">
+                    <span>♡</span>
                     ¿Para qué ocasión?
                 </label>
 
@@ -269,31 +311,67 @@
             </div>
 
 
-            <!-- BOTÓN -->
-            <button id="buscarBtn">
-                💅 Encontrar mis uñas
+            <button
+                id="buscarBtn"
+                class="boton-principal"
+                type="button"
+            >
+                <span>💅🏻</span>
+                Encontrar mis uñas
+                <span>♡</span>
             </button>
+
+
+            <p class="texto-seguro">
+                ✦ Tu estilo es único, ¡vamos a encontrarlo! ✦
+            </p>
 
         </section>
 
 
-        <!-- RESULTADOS -->
         <section class="resultados">
 
-            <h2>
-                💖 Tus recomendaciones
-            </h2>
+            <div class="titulo-resultados">
+
+                <span>💖</span>
+
+                <div>
+
+                    <h2>
+                        Tus recomendaciones
+                    </h2>
+
+                    <p>
+                        Diseños seleccionados para ti
+                    </p>
+
+                </div>
+
+                <span>✨</span>
+
+            </div>
+
 
             <div id="contenedorResultados">
 
                 <div class="mensaje">
 
-                    <span>💅</span>
+                    <div class="mensaje-icono">
+                        💅🏻
+                    </div>
+
+                    <h3>
+                        ¡Tu nail inspo te espera!
+                    </h3>
 
                     <p>
                         Completa tus preferencias para descubrir
-                        tus diseños ideales.
+                        diseños que combinen con tu personalidad.
                     </p>
+
+                    <span class="mensaje-decoracion">
+                        ♡ ✧ ♡
+                    </span>
 
                 </div>
 
@@ -304,12 +382,19 @@
     </main>
 
 
-    <!-- PIE DE PÁGINA -->
     <footer>
 
+        <div class="footer-corazones">
+            ♡ ♡ ♡
+        </div>
+
         <p>
-            💖 NailMatch — Inspírate y crea tu propio estilo ✨
+            💗 NailMatch
         </p>
+
+        <span>
+            Inspírate · Exprésate · Brilla ✨
+        </span>
 
     </footer>
 
